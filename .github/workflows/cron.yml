@@ -1,7 +1,5 @@
 name: Random Cron
 on:
-  schedule:
-    - cron: '0 2,4,6,8,10 * * *'
   workflow_run:
     workflows: ["刷步数"]
     types:
